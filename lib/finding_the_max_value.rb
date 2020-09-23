@@ -5,7 +5,7 @@ def find_max_value(array)
   for i in 0..array.length()
     puts array[i]
     puts x
-    puts ''
+    puts array[i].class
     if array[i] > x 
        x = array[i]
     end
